@@ -1,0 +1,23 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-multipart==0.0.6
+
+# AI APIs
+anthropic==0.7.7
+openai==1.3.5
+google-generativeai==0.3.1
+
+# PDF Processing
+pypdf==3.17.1
+pdfplumber==0.10.3
+
+# Database
+sqlalchemy==2.0.23
+alembic==1.12.1
+
+# Utilities
+python-dotenv==1.0.0
+httpx==0.25.1
+tenacity==8.2.3  # Retry logic for API calls
